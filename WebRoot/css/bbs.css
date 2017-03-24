@@ -1,0 +1,124 @@
+body {
+	font-size: 12px;
+	width: 930px;
+	margin: 0 auto;
+	background-image:url(../img/kabg.gif);
+}
+body table {
+	font-size: 12px;
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4455aa; TEXT-DECORATION: underline
+}
+
+/*首页中的头*/
+#top_nav_wrap {
+	border: 1px solid #e0e0e0;
+	margin-bottom: 10px;
+	width:928px;
+	height:100px;
+	background: url("../img/head2.png");
+}
+/*首页中的中间部分  登陆状态  统计   重要帖子*/
+.main_nav_wrap {
+	height: 185px;
+	margin-bottom: 10px;
+}
+/*首页中的中间部分  登陆状态整体 div*/
+.main_nav_left
+{
+	float:left;width:300px;
+	margin-right: 15px;
+}
+/*首页中的中间部分  登陆状态头 div*/
+.left_title {
+	overflow: hidden;
+	height: 30px;
+	clear: both;
+	background: transparent url("../img/bg.gif") no-repeat scroll 0px 0px;
+	border: 0px;
+	padding-top:7px;
+	padding-left:7px;
+	margin-bottom: -7px;
+}
+/*首页中的中间部分  登陆状态头div 下 span*/
+.left_title span {
+	float: right;
+	font-size: 12px;
+	background: transparent url("../img/bg.gif") no-repeat scroll 100% 0px;
+	height: 30px;
+	margin-top:-7px;
+}
+/*首页中的中间部分  登陆状态主体div*/
+.login_title {
+	width:100%;
+	border: 1px solid #BDCFE3;
+	margin:0px;
+	/*line-height: 150px;*/
+	height:150px;
+	text-align: center;
+    display:table-cell;  
+    vertical-align:middle;  
+    width:300px;
+}
+
+/*首页中的中间部分  统计部分整体 */
+.main_nav_center
+{
+	float:left;width:300px;
+	margin-right: 15px;
+}
+
+/*首页中的中间部分 重要的帖子整体*/
+.main_nav_right
+{
+	width:300px;float:left;
+}
+/*首页中的版块整体*/
+.channel_nav_wrap
+{
+	border: 1px solid #BDCFE3;
+	margin-bottom: 10px;
+}
+/*首页中的版块整体 版块头*/
+.channel_name
+{
+	padding-top:7px;
+	padding-left:7px;
+	background: transparent url("../img/channel_name.gif") repeat;
+	height: 30px;
+}
+/*首页中的版块整体 版块体*/
+.channel_des
+{
+	padding-top:7px;
+	padding-left:7px;
+	line-height: 50px;
+	height:50px;
+}
+/*首页中的链接整体*/
+.link_nav_wrap
+{
+	margin-bottom: 10px;
+}
+/*首页中的链接整体 链接列表*/
+.link_list {
+	border: 1px solid #BDCFE3;
+	margin:0px;
+	text-align: center;
+    display:table-cell;  
+    vertical-align:middle;  
+    hight:30px;
+    line-height:30px;
+    width:930px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+body table {
+	border: 1px solid #AEDEF2;
+	border-collapse: collapse;
+	font-size:12px;
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4455aa; TEXT-DECORATION: underline
+}
+
+
+table th{
+	/*width: 671px;*/
+	color: #0066cc;
+	background-color: #eef6fe;
+	font-size: 14px;
+	color: #05B;
+	border: 1px solid #AEDEF2;
+}
+
+table td {
+	border: 1px solid #AEDEF2;
+	background: ghostwhite;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	font-family: 新宋体;
+	color: #000000;
+	text-align: center;
+}
+
